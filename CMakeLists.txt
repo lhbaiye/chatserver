@@ -1,6 +1,13 @@
-cmake_minimum_required(VERSION 3.30)
-project(char)
+cmake_minimum_required(VERSION 3.0)
 
-set(CMAKE_CXX_STANDARD 20)
 
-add_executable(char main.cpp)
+project(JsonExample)
+
+
+set(CMAKE_CXX_STANDARD 11)
+
+
+include_directories(include)
+include_directories(test)
+
+add_executable(main main.cpp)
